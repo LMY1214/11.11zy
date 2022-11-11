@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body,
+html {
+  background-color: #011957;
+}
+.main {
+  width: 100%;
+  margin: 0 auto;
+  min-width: 347px;
+}
+.main .top {
+  width: 100%;
+  height: 16rem;
+  background: url(../images/jmsj_hw150316g.jpg) no-repeat;
+  background-size: 100%;
+}
+.main .nav {
+  width: 100%;
+  padding: 0 0.3rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+@media all and (min-width: 1200px) {
+  .main .nav div {
+    width: 16%;
+    margin: 0 0.2rem;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 1199px) {
+  .main .nav div {
+    width: 21%;
+    margin: 0 0.2rem;
+  }
+}
+@media all and (max-width: 479px) {
+  .main .nav div {
+    width: 29%;
+    margin: 0 0.2rem;
+  }
+}
+.main .nav div {
+  float: left;
+  color: #fff;
+  font-size: 0.6rem;
+  margin-bottom: 0.3rem;
+  padding: 0.3rem 0.5rem;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #6745b5;
+}
+.main .content {
+  width: 100%;
+}
+.main .content ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+.main .content ul li {
+  list-style: none;
+  width: 49%;
+  background-color: #fff;
+  border-radius: 0.2rem;
+  overflow: hidden;
+  font-size: 0.6rem;
+  box-sizing: border-box;
+  padding: 0 0.2rem;
+  margin-bottom: 0.3rem;
+}
+.main .content ul li img {
+  width: 90%;
+  margin-left: 0.5rem;
+}
+.main .content ul li .red {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: red;
+}
+.main .content ul li .line {
+  text-decoration: line-through;
+}
+.main .content ul li .b {
+  width: 100%;
+  position: relative;
+  margin-top: 0.7rem;
+  margin-bottom: 0.3rem;
+}
+.main .content ul li .b .btn {
+  box-sizing: border-box;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.2rem;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 0.5rem;
+  background-color: red;
+  color: #fff;
+  position: absolute;
+  right: 0.2rem;
+  bottom: 0rem;
+}
