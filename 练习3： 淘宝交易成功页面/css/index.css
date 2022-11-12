@@ -1,0 +1,275 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #eee;
+}
+.main {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 650px;
+  min-width: 320px;
+  /* 头部 */
+  /* 交易成功 */
+  /* 收货人信息 */
+  /* 店铺名称 */
+  /* 商品 */
+  /* 商品总价 */
+  /*联系卖家  */
+  /* 订单详情 */
+  /* 你可能想要 */
+  /* 删除订单 */
+}
+.main .top {
+  width: 100%;
+  height: 4rem;
+  line-height: 4rem;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  background-color: #e6071b;
+  position: relative;
+}
+.main .top a {
+  display: inline-block;
+  background-color: aqua;
+  z-index: 1;
+  position: absolute;
+}
+.main .top .back {
+  width: 3.5rem;
+  height: 3.5rem;
+  left: 0.3rem;
+  top: 0.3rem;
+  background: url(../images/back.png) no-repeat;
+  background-size: contain;
+}
+.main .top .home {
+  width: 2.2rem;
+  height: 2.2rem;
+  right: 0.8rem;
+  top: 1rem;
+  background: url(../images/qhome.png) no-repeat;
+  background-size: contain;
+}
+.main .nav {
+  width: 100%;
+  height: 5rem;
+  background: url(../images/supchenge.png) no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.main .nav .center {
+  width: 7rem;
+  height: 4rem;
+  line-height: 4rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 2.7rem;
+  background: url(../images/supchok.png) no-repeat 0 center;
+  background-size: 25%;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.main .message {
+  width: 100%;
+  height: 6.5rem;
+  margin-bottom: 2rem;
+  background-color: #fff;
+  display: flex;
+  color: #666666;
+}
+.main .message .img {
+  line-height: 6.5rem;
+  text-align: center;
+  width: 4rem;
+}
+.main .message .img img {
+  width: 50%;
+}
+.main .message .text {
+  padding-top: 1rem;
+  font-size: 1.4rem;
+}
+.main .name {
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 1.6rem;
+  padding-left: 4rem;
+  background: url(../images/gift1.png) no-repeat 1rem;
+  background-size: contain;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.main .good {
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  border-bottom: 1px solid #d8d8d8;
+  box-sizing: border-box;
+}
+.main .good .img {
+  width: 7rem;
+}
+.main .good .img img {
+  width: 100%;
+}
+.main .good .text {
+  width: 100%;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.main .good .text .one {
+  font-size: 1.4rem;
+  color: #666666;
+}
+.main .good .text .two {
+  font-size: 1.4rem;
+  color: #ababab;
+}
+.main .good .text .three {
+  color: #666;
+  font-size: 1.4rem;
+}
+.main .good .gprice {
+  color: #e6071b;
+}
+.main .price {
+  width: 100%;
+  background-color: #fff;
+  height: 4rem;
+  font-size: 1.4rem;
+  color: #666;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.5rem;
+  box-sizing: border-box;
+  margin-bottom: 0.5rem;
+}
+.main .price div {
+  flex: 1;
+  position: relative;
+}
+.main .price div span {
+  display: inline-block;
+  width: 6rem;
+  position: absolute;
+  right: 0.2rem;
+}
+.main .price div .red {
+  color: #e6071b;
+}
+.main .contact {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin-bottom: 0.5rem;
+}
+.main .contact .t {
+  padding-left: 3rem;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  background: url(../images/gift1.png) no-repeat;
+  background-size: contain;
+  flex: 1;
+  color: #333;
+}
+.main .contact .b {
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+}
+.main .contact .b div {
+  margin-top: 1rem;
+  width: 48%;
+  height: 2rem;
+  line-height: 2rem;
+  border: 1px solid #d1d1d1;
+  color: #888888;
+  text-align: center;
+}
+.main .contact .b .l {
+  background: url(../images/callout.png) no-repeat 4rem 0;
+  background-size: contain;
+}
+.main .contact .b .r {
+  background: url(../images/comein.png) no-repeat 4rem 0;
+  background-size: contain;
+}
+.main .detail {
+  width: 100%;
+  height: 10rem;
+  color: #888888;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+  padding: 0.5rem 0.2rem;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.main .detail div {
+  flex: 1;
+  position: relative;
+}
+.main .detail div:nth-of-type(1) span {
+  display: inline-block;
+  padding: 0 0.4rem;
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.2rem;
+}
+.main .want {
+  width: 100%;
+  height: 16rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin-top: 0.5rem;
+}
+.main .want .text {
+  flex: 1;
+  font-size: 1.4rem;
+  padding: 0.3rem;
+}
+.main .want .ul {
+  flex: 9;
+  padding: 0.2rem 2rem;
+}
+.main .want .ul ul {
+  display: flex;
+}
+.main .want .ul ul li {
+  list-style: none;
+  flex: 1;
+}
+.main .want .ul ul li img {
+  width: 100%;
+}
+.main .delet {
+  width: 100%;
+  background-color: #fff;
+  height: 5rem;
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  box-sizing: border-box;
+}
+.main .delet div {
+  width: 6rem;
+  height: 1.5rem;
+  text-align: center;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid #d8d8d8;
+}
